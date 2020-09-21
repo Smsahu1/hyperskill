@@ -1,0 +1,12 @@
+
+import java.util.Scanner;
+
+class Main {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        int x;
+        while ((x = in.nextInt()) != 0) {
+            System.out.println(x % 2 == 0 ? "even" : "odd");
+        }
+    }
+}
